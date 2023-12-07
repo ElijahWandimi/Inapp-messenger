@@ -1,0 +1,30 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+  port: 10290
+
+
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/messenger?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&useSSL=false&autoReconnect=true
+    username: elijah
+    password: elijah@maria23
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+        show_sql: true
+
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    stream:
+      username: guest
+      password: guest
