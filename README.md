@@ -62,7 +62,7 @@ Configure your database details in application.yml.<br>
 Run the application to initialize the database.
 
 #### Video Demonstration and Code Walkthrough
-<video src='https://github.com/ElijahWandimi/Inapp-messenger/blob/master/inapp_demo.webm' width=18/>
+(https://github.com/ElijahWandimi/Inapp-messenger/blob/master/inapp_demo.webm)
 
 Key Aspects Covered:
 
