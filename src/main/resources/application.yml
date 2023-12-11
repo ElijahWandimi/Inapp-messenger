@@ -8,8 +8,8 @@ server:
 spring:
   datasource:
     url: jdbc:mariadb://127.0.0.1:3306/messenger?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&useSSL=false&autoReconnect=true
-    username: elijah
-    password: elijah@maria23
+    username: ''
+    password: ''
 
 
   jpa:
